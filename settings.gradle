@@ -1,3 +1,5 @@
 rootProject.name = 'scala-project'
 include 'collectionTier'
+include 'mesage_queue_tier'
+findProject(':mesage_queue_tier')?.name = 'java-project'
 
